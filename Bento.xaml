@@ -1,0 +1,26 @@
+<!-- Bento UI Grid -->
+<Grid Margin="10" Background="#F0F0F0" CornerRadius="10">
+    <!-- Row Definitions -->
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <!-- Add more rows as needed -->
+    </Grid.RowDefinitions>
+
+    <!-- Cell 1: Header -->
+    <Border Grid.Row="0" Background="#3498DB" CornerRadius="10 10 0 0" Padding="10">
+        <TextBlock Text="Bento UI Component" Foreground="White" FontWeight="Bold" FontSize="18"/>
+    </Border>
+
+    <!-- Cell 2: Content -->
+    <Border Grid.Row="1" Margin="10" CornerRadius="0 0 10 10">
+        <!-- Your content goes here -->
+        <StackPanel>
+            <TextBlock Text="Content Goes Here" FontSize="16"/>
+            <!-- Add more content controls as needed -->
+        </StackPanel>
+    </Border>
+
+    <!-- Add more cells as needed -->
+
+</Grid>
